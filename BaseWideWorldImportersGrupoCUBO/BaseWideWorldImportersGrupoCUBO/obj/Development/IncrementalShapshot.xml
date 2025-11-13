@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>BaseWideWorldImportersGrupoCUBO</Database>
+    <Server>DESKTOP-06GODJN\SQLIVAN</Server>
+    <ConnectionString>Data Source=DESKTOP-06GODJN\SQLIVAN;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>50Vq6s9TDnpmhNlSSA6teC7XcQI=11/13/2025 11:07:30 AM11/13/2025 11:07:30 AM</TimeStamp>
+        <ID>
+          <String>Wide World Importers Grupo DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>32Zc24I3MHZWFMibUfr7lliWQ44=11/13/2025 12:11:04 PM11/13/2025 11:09:21 AM</TimeStamp>
+        <ID>
+          <String>Wide World Importers Grupo DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bpFe3OejvGI/i7aAP3hqD/1uvDw=11/13/2025 6:26:52 PM11/13/2025 11:14:36 AM</TimeStamp>
+        <ID>
+          <String>Dim Payment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oR9Oc22cAwY/khzGf2DYWOcon/s=11/13/2025 6:26:41 PM11/13/2025 11:14:36 AM</TimeStamp>
+        <ID>
+          <String>Dim People Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kmERIUm2xYyL1iqIpYUUJM7hzss=11/13/2025 6:51:32 PM11/13/2025 11:14:36 AM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wWzkhcvYoe/x1SL/AE+dHr5nXqo=11/13/2025 6:52:07 PM11/13/2025 11:14:36 AM</TimeStamp>
+        <ID>
+          <String>Dim Geo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>d3pL9vqhSN087SMzf+6yrDL7Yh8=11/13/2025 6:50:44 PM11/13/2025 11:14:37 AM</TimeStamp>
+        <ID>
+          <String>Dim Supplier</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5W+WHpdFXItqmgQwvTTWWN+PvSw=11/13/2025 6:25:50 PM11/13/2025 11:14:37 AM</TimeStamp>
+        <ID>
+          <String>Dim People Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LYB6UGvB5OVqJOLnMs80u2FJLH8=11/13/2025 6:26:32 PM11/13/2025 11:14:36 AM</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>oBWGV6pHW+K47zR1yeymyuMGJXs=11/13/2025 6:52:07 PM11/13/2025 11:14:36 AMPzpVfzoNfrQUuG5lxc7msgjQHyI=11/13/2025 11:14:37 AM11/13/2025 11:14:36 AM</TimeStamp>
+        <ID>
+          <String>Wide World Importers Grupo DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>p8J5GVyGDbR7rYtM4ad3KHlEsIY=11/13/2025 11:04:06 AM11/13/2025 11:04:06 AM</TimeStamp>
+      <ID>
+        <String>BaseWideWorldImportersGrupoCUBO</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-11-13T21:53:43.433333Z</LastDeployed>
+</DeploymentSnapshot>

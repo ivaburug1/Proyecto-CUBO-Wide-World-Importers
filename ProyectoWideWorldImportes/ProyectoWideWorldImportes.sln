@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ProyectoWideWorldImportes", "ProyectoWideWorldImportes\ProyectoWideWorldImportes.dtproj", "{C1BB4F35-8070-15DB-9ED6-43B95EE63394}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1BB4F35-8070-15DB-9ED6-43B95EE63394}.Debug|Any CPU.ActiveCfg = Development
+		{C1BB4F35-8070-15DB-9ED6-43B95EE63394}.Debug|Any CPU.Build.0 = Development
+		{C1BB4F35-8070-15DB-9ED6-43B95EE63394}.Development|Any CPU.ActiveCfg = Development
+		{C1BB4F35-8070-15DB-9ED6-43B95EE63394}.Development|Any CPU.Build.0 = Development
+		{C1BB4F35-8070-15DB-9ED6-43B95EE63394}.Release|Any CPU.ActiveCfg = Development
+		{C1BB4F35-8070-15DB-9ED6-43B95EE63394}.Release|Any CPU.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEAC9781-B5F5-4B6C-9A09-577EF98F4E64}
+	EndGlobalSection
+EndGlobal

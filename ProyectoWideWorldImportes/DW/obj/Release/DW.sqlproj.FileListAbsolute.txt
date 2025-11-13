@@ -1,0 +1,10 @@
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\bin\Release\DW.dacpac
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\bin\Release\DW.dll
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\bin\Release\DW.pdb
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\obj\Release\DW.sqlproj.AssemblyReference.cache
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\obj\Release\DW.dll
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\obj\Release\DW.pdb
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\obj\Release\Model.xml
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\obj\Release\refactor.xml
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\obj\Release\postdeploy.sql
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\DW\obj\Release\predeploy.sql

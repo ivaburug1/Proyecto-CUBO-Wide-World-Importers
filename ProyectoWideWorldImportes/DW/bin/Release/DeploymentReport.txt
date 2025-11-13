@@ -1,0 +1,39 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[DimGeo] (Tabla)
+       [dbo].[DimPayment] (Tabla)
+       [dbo].[DimPeopleCustomer] (Tabla)
+       [dbo].[DimPeopleEmployee] (Tabla)
+       [dbo].[DimProduct] (Tabla)
+       [dbo].[DimSupplier] (Tabla)
+       [dbo].[DimTiempo] (Tabla)
+       [dbo].[FactCobros] (Tabla)
+       [dbo].[FactCompra] (Tabla)
+       [dbo].[FactVenta] (Tabla)
+       [dbo].[FK_FactCobros_DimPayment] (Clave externa)
+       [dbo].[FK_FactCobros_DimPeopleCustomer] (Clave externa)
+       [dbo].[FK_FactCobros_DimTiempo] (Clave externa)
+       [dbo].[FK_FactCompra_DimGeo] (Clave externa)
+       [dbo].[FK_FactCompra_DimPayment] (Clave externa)
+       [dbo].[FK_FactCompra_DimProduct] (Clave externa)
+       [dbo].[FK_FactCompra_DimSupplier] (Clave externa)
+       [dbo].[FK_FactCompra_DimTiempo] (Clave externa)
+       [dbo].[FK_FactVenta_DimCustomer] (Clave externa)
+       [dbo].[FK_FactVenta_DimGeo] (Clave externa)
+       [dbo].[FK_FactVenta_DimPayment] (Clave externa)
+       [dbo].[FK_FactVenta_DimProduct] (Clave externa)
+       [dbo].[FK_FactVenta_DimSalesperson] (Clave externa)
+       [dbo].[FK_FactVenta_DimTiempo] (Clave externa)
+       [dbo].[upLimpiezaDW] (Procedimiento)
+
+** Acciones de compatibilidad

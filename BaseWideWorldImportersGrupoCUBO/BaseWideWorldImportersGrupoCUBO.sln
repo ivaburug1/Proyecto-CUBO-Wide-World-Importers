@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "BaseWideWorldImportersGrupoCUBO", "BaseWideWorldImportersGrupoCUBO\BaseWideWorldImportersGrupoCUBO.dwproj", "{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}.Development|Default.ActiveCfg = Development
+		{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}.Development|Default.Build.0 = Development
+		{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7782445D-A8DC-40CD-80C9-3CB0951FCA8B}
+	EndGlobalSection
+EndGlobal

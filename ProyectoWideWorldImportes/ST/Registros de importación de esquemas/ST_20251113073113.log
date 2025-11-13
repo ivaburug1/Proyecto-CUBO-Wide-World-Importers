@@ -1,0 +1,88 @@
+13/11/2025 16:31:13	Este registro contiene información acerca de la operación de importación de esquema en el proyecto 'ST' del equipo 'DESKTOP-JGDSL1F' por el usuario 'rafis'.
+13/11/2025 16:31:18	Se inició la importación del esquema de la base de datos.
+13/11/2025 16:31:18	Recopilando credenciales de la base de datos
+13/11/2025 16:31:18	Recopilando opciones de base de datos
+13/11/2025 16:31:18	Recopilando la opción de configuración de ámbito de la base de datos genérica
+13/11/2025 16:31:18	Recopilando usuarios
+13/11/2025 16:31:18	Recopilando roles
+13/11/2025 16:31:18	Recopilando roles de aplicación
+13/11/2025 16:31:18	Recopilando pertenencias a roles
+13/11/2025 16:31:18	Recopilando grupos de archivos
+13/11/2025 16:31:18	Recopilando catálogos de texto completo
+13/11/2025 16:31:18	Recopilando ensamblados
+13/11/2025 16:31:18	Recopilando certificados
+13/11/2025 16:31:18	Recopilando claves asimétricas
+13/11/2025 16:31:18	Recopilando claves simétricas
+13/11/2025 16:31:18	Recopilando claves simétricas cifradas
+13/11/2025 16:31:18	Recopilando esquemas
+13/11/2025 16:31:18	Recopilando colecciones de esquemas XML
+13/11/2025 16:31:18	Recopilando tipos de datos definidos por el usuario
+13/11/2025 16:31:18	Recopilando tipos definidos por el usuario
+13/11/2025 16:31:18	Recopilando tipos de tabla
+13/11/2025 16:31:18	Recopilando claves únicas para tipos de tabla
+13/11/2025 16:31:18	Recopilando claves principales para tipos de tabla
+13/11/2025 16:31:18	Recopilando índices para tipos de tablas
+13/11/2025 16:31:18	Recopilando restricciones CHECK para tipos de tabla
+13/11/2025 16:31:18	Recopilando restricciones DEFAULT para tipos de tabla
+13/11/2025 16:31:18	Recopilando funciones de partición
+13/11/2025 16:31:18	Recopilando esquemas de partición
+13/11/2025 16:31:18	Recopilando funciones
+13/11/2025 16:31:18	Recopilando funciones cifradas
+13/11/2025 16:31:18	Recopilando agregados
+13/11/2025 16:31:18	Recopilando procedimientos
+13/11/2025 16:31:18	Recopilando procedimientos cifrados
+13/11/2025 16:31:18	Recopilando tablas
+13/11/2025 16:31:18	Recopilando claves principales
+13/11/2025 16:31:18	Recopilando restricciones UNIQUE
+13/11/2025 16:31:18	Recopilando claves externas
+13/11/2025 16:31:18	Recopilando restricciones DEFAULT
+13/11/2025 16:31:18	Recopilando restricciones CHECK
+13/11/2025 16:31:18	Recopilando vistas
+13/11/2025 16:31:18	Recopilando vistas cifradas
+13/11/2025 16:31:18	Recopilando índices
+13/11/2025 16:31:18	Recopilando estadísticas
+13/11/2025 16:31:18	Recopilando listas de palabras irrelevantes de índices de texto completo
+13/11/2025 16:31:18	Recopilando listas de propiedades de búsqueda
+13/11/2025 16:31:18	Recopilando propiedades de búsqueda
+13/11/2025 16:31:18	Recopilando índices de texto completo
+13/11/2025 16:31:18	Recopilando índices de almacenamiento de columnas
+13/11/2025 16:31:18	Recopilando índices espaciales
+13/11/2025 16:31:18	Recopilando índices XML
+13/11/2025 16:31:18	Recopilando índices XML selectivos
+13/11/2025 16:31:18	Recopilando desencadenadores cifrados
+13/11/2025 16:31:18	Recopilando desencadenadores
+13/11/2025 16:31:18	Recopilando DDL triggers cifrados y de CLR
+13/11/2025 16:31:18	Recopilando DDL triggers
+13/11/2025 16:31:18	Creación de la restricción perimetral en curso
+13/11/2025 16:31:18	Recopilando sinónimos
+13/11/2025 16:31:18	Recopilando valores predeterminados
+13/11/2025 16:31:18	Recopilando enlaces UDDT de restricción de datos
+13/11/2025 16:31:18	Recopilando reglas
+13/11/2025 16:31:18	Recopilando enlaces UDDT de restricción de datos
+13/11/2025 16:31:18	Recopilando tipos de mensaje
+13/11/2025 16:31:18	Recopilando colas
+13/11/2025 16:31:18	Recopilando contratos
+13/11/2025 16:31:18	Recopilando servicios
+13/11/2025 16:31:18	Recopilando notificaciones de eventos
+13/11/2025 16:31:18	Recopilando enlaces de servicio remoto
+13/11/2025 16:31:18	Recopilando prioridades de Broker
+13/11/2025 16:31:18	Recopilando firmas
+13/11/2025 16:31:18	Recopilando opciones de compresión
+13/11/2025 16:31:18	Recopilando tipos de secuencia
+13/11/2025 16:31:18	Recopilando directivas de seguridad
+13/11/2025 16:31:18	Recopilar claves de cifrado de columna
+13/11/2025 16:31:18	Recopilando claves maestras de columna
+13/11/2025 16:31:18	Recopilando orígenes de datos externos
+13/11/2025 16:31:18	Recopilando formatos de archivo externos
+13/11/2025 16:31:18	Recopilando tablas externas
+13/11/2025 16:31:18	Recopilando opciones de compresión de índice XML
+13/11/2025 16:31:18	Recopilando propiedades extendidas
+13/11/2025 16:31:18	Recopilando ensamblados
+13/11/2025 16:31:18	Recopilando credenciales
+13/11/2025 16:31:18	Recopilando inicios de sesión
+13/11/2025 16:31:18	Recopilando auditorías de servidor
+13/11/2025 16:31:18	Buscando elementos duplicados en el proyecto
+13/11/2025 16:31:18	Ha finalizado el procesamiento de los elementos duplicados
+13/11/2025 16:31:20	Finalizó la importación de la base de datos.
+13/11/2025 16:31:20	Se guardó un resumen de la importación en la siguiente ubicación: C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\ST\Registros de importación de esquemas\ST_20251113073113.log
+13/11/2025 16:31:20	Haga clic en Finalizar para continuar...

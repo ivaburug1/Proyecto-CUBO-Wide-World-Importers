@@ -1,0 +1,57 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [Customer] (Esquema)
+       [Errores] (Esquema)
+       [General] (Esquema)
+       [Geo] (Esquema)
+       [Payment] (Esquema)
+       [Product] (Esquema)
+       [Sales] (Esquema)
+       [Supplier] (Esquema)
+       [Customer].[Customers] (Tabla)
+       [Customer].[CustomerCategories] (Tabla)
+       [Customer].[BuyingGroups] (Tabla)
+       [Customer].[People] (Tabla)
+       [Errores].[Errores] (Tabla)
+       [Geo].[DimCountries] (Tabla)
+       [Geo].[DimCities] (Tabla)
+       [Geo].[DimStateProvinces] (Tabla)
+       [Payment].[CustomerTransactions] (Tabla)
+       [Payment].[PurchaseOrderLines] (Tabla)
+       [Payment].[PurchaseOrders] (Tabla)
+       [Product].[DeliveryMethods] (Tabla)
+       [Product].[StockItemTransactions] (Tabla)
+       [Product].[StockItemHoldings] (Tabla)
+       [Product].[StockItems] (Tabla)
+       [Product].[PackageTypes] (Tabla)
+       [Product].[PaymentMethods] (Tabla)
+       [Product].[Colors] (Tabla)
+       [Product].[OrderLines] (Tabla)
+       [Product].[Invoices] (Tabla)
+       [Product].[InvoiceLines] (Tabla)
+       [Supplier].[SupplierCategories] (Tabla)
+       [Supplier].[SupplierTransactions] (Tabla)
+       [Supplier].[Suppliers] (Tabla)
+       [Errores].[DF_Errores_FechaError] (Restricción DEFAULT)
+       [Errores].[upErrores_Ins] (Procedimiento)
+       [General].[upInicializacion_Del] (Procedimiento)
+       [dbo].[upDimGeo_Ins] (Procedimiento)
+       [dbo].[upDimPayment_Ins] (Procedimiento)
+       [dbo].[upDimPeopleEmploye_Customer_Ins] (Procedimiento)
+       [dbo].[upDimProduct_Ins] (Procedimiento)
+       [dbo].[upDimSuppier_Ins] (Procedimiento)
+       [dbo].[upFactCobros_Ins] (Procedimiento)
+       [dbo].[upFactCompra_Ins] (Procedimiento)
+       [dbo].[upFactVenta_Ins] (Procedimiento)
+
+** Acciones de compatibilidad

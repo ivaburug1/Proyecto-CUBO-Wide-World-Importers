@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>ST</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{20319b73-5ed6-4122-9e61-a2a03a1dfb67}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>ST</RootNamespace>
+    <AssemblyName>ST</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Product\" />
+    <Folder Include="Product\Tables\" />
+    <Folder Include="Payment\" />
+    <Folder Include="Payment\Tables\" />
+    <Folder Include="Errores\" />
+    <Folder Include="Errores\Tables\" />
+    <Folder Include="Geo\" />
+    <Folder Include="Geo\Tables\" />
+    <Folder Include="Customer\" />
+    <Folder Include="Customer\Tables\" />
+    <Folder Include="Supplier\" />
+    <Folder Include="Supplier\Tables\" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Errores\Stored Procedures\" />
+    <Folder Include="General\" />
+    <Folder Include="General\Stored Procedures\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Product\Tables\PackageTypes.sql" />
+    <Build Include="Product\Tables\StockItems.sql" />
+    <Build Include="Product\Tables\StockItemHoldings.sql" />
+    <Build Include="Product\Tables\StockItemTransactions.sql" />
+    <Build Include="Payment\Tables\CustomerTransactions.sql" />
+    <Build Include="Errores\Tables\Errores.sql" />
+    <Build Include="Geo\Tables\DimCities.sql" />
+    <Build Include="Geo\Tables\DimCountries.sql" />
+    <Build Include="Product\Tables\DeliveryMethods.sql" />
+    <Build Include="Product\Tables\PaymentMethods.sql" />
+    <Build Include="Customer\Tables\People.sql" />
+    <Build Include="Geo\Tables\DimStateProvinces.sql" />
+    <Build Include="Payment\Tables\PurchaseOrders.sql" />
+    <Build Include="Payment\Tables\PurchaseOrderLines.sql" />
+    <Build Include="Supplier\Tables\Suppliers.sql" />
+    <Build Include="Supplier\Tables\SupplierTransactions.sql" />
+    <Build Include="Supplier\Tables\SupplierCategories.sql" />
+    <Build Include="Customer\Tables\BuyingGroups.sql" />
+    <Build Include="Customer\Tables\CustomerCategories.sql" />
+    <Build Include="Customer\Tables\Customers.sql" />
+    <Build Include="Product\Tables\InvoiceLines.sql" />
+    <Build Include="Product\Tables\Invoices.sql" />
+    <Build Include="Product\Tables\OrderLines.sql" />
+    <Build Include="Product\Tables\Colors.sql" />
+    <Build Include="dbo\Stored Procedures\upDimGeo_Ins.sql" />
+    <Build Include="dbo\Stored Procedures\upDimPayment_Ins.sql" />
+    <Build Include="dbo\Stored Procedures\upDimProduct_Ins.sql" />
+    <Build Include="dbo\Stored Procedures\upDimPeopleEmploye_Customer_Ins.sql" />
+    <Build Include="dbo\Stored Procedures\upDimSuppier_Ins.sql" />
+    <Build Include="dbo\Stored Procedures\upFactCompra_Ins.sql" />
+    <Build Include="dbo\Stored Procedures\upFactVenta_Ins.sql" />
+    <Build Include="dbo\Stored Procedures\upFactCobros_Ins.sql" />
+    <Build Include="Errores\Stored Procedures\upErrores_Ins.sql" />
+    <Build Include="General\Stored Procedures\upInicializacion_Del.sql" />
+    <Build Include="Security\Customer.sql" />
+    <Build Include="Security\Errores.sql" />
+    <Build Include="Security\General.sql" />
+    <Build Include="Security\Geo.sql" />
+    <Build Include="Security\Payment.sql" />
+    <Build Include="Security\Product.sql" />
+    <Build Include="Security\Sales.sql" />
+    <Build Include="Security\Supplier.sql" />
+  </ItemGroup>
+</Project>

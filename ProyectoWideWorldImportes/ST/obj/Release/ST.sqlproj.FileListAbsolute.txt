@@ -1,0 +1,6 @@
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\ST\bin\Release\ST.dacpac
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\ST\bin\Release\ST.dll
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\ST\bin\Release\ST.pdb
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\ST\obj\Release\ST.sqlproj.AssemblyReference.cache
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\ST\obj\Release\ST.dll
+C:\Users\rafis\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Año 3\Cuatrimestre 2\Base de datos 2\Proyecto\ProyectoWideWorldImportes\ST\obj\Release\ST.pdb

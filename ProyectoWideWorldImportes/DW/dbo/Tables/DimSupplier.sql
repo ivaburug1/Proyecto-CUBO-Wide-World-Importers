@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[DimSupplier] (
+    [SupplierCategoryID]       INT               NULL,
+    [SupplierCategoryName]     NVARCHAR (50)     NULL,
+    [SupplierID]               INT               NOT NULL,
+    [SupplierName]             NVARCHAR (100)    NULL,
+    [SupplierCategoryID_FK]    INT               NULL,
+    [PrimaryContactPersonID]   INT               NULL,
+    [AlternateContactPersonID] INT               NULL,
+    [DeliveryMethodID]         INT               NULL,
+    [DeliveryCityID]           INT               NULL,
+    [PostalCityID]             INT               NULL,
+    [SupplierReference]        NVARCHAR (20)     NULL,
+    [BankAccountName]          NVARCHAR (50)     NULL,
+    [BankAccountBranch]        NVARCHAR (50)     NULL,
+    [BankAccountNumber]        NVARCHAR (20)     NULL,
+    [BankInternationalCode]    NVARCHAR (20)     NULL,
+    [PaymentDays]              INT               NULL,
+    [DeliveryAddressLine1]     NVARCHAR (60)     NULL,
+    [DeliveryAddressLine2]     NVARCHAR (60)     NULL,
+    [DeliveryPostalCode]       NVARCHAR (10)     NULL,
+    [DeliveryLocation]         [sys].[geography] NULL,
+    [PostalAddressLine1]       NVARCHAR (60)     NULL,
+    [PostalAddressLine2]       NVARCHAR (60)     NULL,
+    [PostalPostalCode]         NVARCHAR (10)     NULL,
+    CONSTRAINT [PK_DimSupplier] PRIMARY KEY CLUSTERED ([SupplierID] ASC)
+);
+
