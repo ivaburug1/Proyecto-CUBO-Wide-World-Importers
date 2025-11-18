@@ -24,10 +24,14 @@ git push                 # Sube los commits al repositorio remoto
 
 ----------------INTEGRANTES----------------
 
-Urso Ivan Alejandro
-Perelmuter Dana
-Cuello de Sarro Rafael Luis
-Pylinski Natalie Lourdes
+Urso Ivan Alejandro;
+
+Perelmuter Dana;
+
+Cuello de Sarro Rafael Luis;
+
+Pylinski Natalie Lourdes;
+
 Britez Leandro Ezequiel
 
 
