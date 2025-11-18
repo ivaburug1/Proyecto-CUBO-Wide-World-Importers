@@ -65,25 +65,25 @@ B) Crear los esquemas de las bases de datos:
 
 1\. Publicar los database project con los nombres especificos "WideWorldImportersGrupoST" y "WideWorldImportersGrupoDW".
 
-2.En el apartado de SSIS packages: 
+2.En el apartado de SSIS packages:
 
-&nbsp;  - En el paquete E\_GrupoDIRN.
+   - En el paquete E\_GrupoDIRN.
 
-&nbsp;       - Hacer doble click sobre el execute sql task y cambiar tu conexión por la conexión local (ST creado en el paso anterior). Aca aparece la extración DIM.
+        - Hacer doble click sobre el execute sql task y cambiar tu conexión por la conexión local (ST creado en el paso anterior). Aca aparece la extración DIM.
 
-&nbsp;       - En cada Data Float Task dentro de la extración de DIM, entrar a los OLE DB:
+        - En cada Data Float Task dentro de la extración de DIM, entrar a los OLE DB:
 
-&nbsp;             - Para los OLE DB Source: Cambiar la conexión por la tuya (la descargada), elegir la tabla correspondiente y entrar a verificar que se hayan seleccionado todas las columnas.   
+              - Para los OLE DB Source: Cambiar la conexión por la tuya (la descargada), elegir la tabla correspondiente y entrar a verificar que se hayan seleccionado todas las columnas.
 
-&nbsp;             - Para los OLE DB Destination: Cambiar la conexión por la tuya (ST) elegir la tabla correspondiente y entrar a verificar que se hayan seleccionado todas las columnas.   
+              - Para los OLE DB Destination: Cambiar la conexión por la tuya (ST) elegir la tabla correspondiente y entrar a verificar que se hayan seleccionado todas las columnas.
 
-&nbsp;  - En el paquete TL\_GrupoDIRN.
+   - En el paquete TL\_GrupoDIRN.
 
-&nbsp;        - Hacer doble click sobre el execute sql task y cambiar tu conexión por la conexión local (DW).
+         - Hacer doble click sobre el execute sql task y cambiar tu conexión por la conexión local (DW).
 
-&nbsp;        - En cada Data Float Task dentro de DIM DW y FACT DW:
+         - En cada Data Float Task dentro de DIM DW y FACT DW:
 
-&nbsp;             - Cambiar tu conexión a la de ST local creada en el paso 1.
+              - Cambiar tu conexión a la de ST local creada en el paso 1.
 
 3\. Ir al paquete ETL\_GrupoDIR y ejecutar el container ETL y apretar Execute Container.
 
@@ -97,9 +97,9 @@ C) Verificar la Conexión al Servidor de Analysis Services:
 
 3.En la pestaña Deployment, revisar:
 
-&nbsp;  - Target Server -> nombre de la instancia de Analysis Services.
+   - Target Server -> nombre de la instancia de Analysis Services.
 
-&nbsp;  - Database -> nombre del cubo a desplegar.
+   - Database -> nombre del cubo a desplegar.
 
 4.Guardar los cambios.
 
@@ -142,4 +142,10 @@ F) Si se desea, es posible crear un analisis con graficos en power BI importando
 5\. Crear los dashboards.
 
 
+
+
+
+----------------LINK DE PRESENTACION CANVA----------------
+
+https://www.canva.com/design/DAG4nzmcm4I/g\_tQat7fy2Z53smzbdwNZA/edit
 
