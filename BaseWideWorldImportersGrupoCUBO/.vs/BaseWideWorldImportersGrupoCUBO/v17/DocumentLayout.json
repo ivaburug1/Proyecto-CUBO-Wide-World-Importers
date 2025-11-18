@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BI\\PHYSIS_BI\\BaseWideWorldImportersGrupoCUBO\\",
+  "WorkspaceRootPath": "D:\\BI\\PHYSIS_BI\\Proyecto Wide World Importers DINRL\\BaseWideWorldImportersGrupoCUBO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}|BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO.dwproj|D:\\BI\\PHYSIS_BI\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "AbsoluteMoniker": "D:0:0:{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}|BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO.dwproj|D:\\BI\\PHYSIS_BI\\Proyecto Wide World Importers DINRL\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}|BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO.dwproj|solutionrelative:BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}|BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO.dwproj|D:\\BI\\PHYSIS_BI\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "AbsoluteMoniker": "D:0:0:{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}|BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO.dwproj|D:\\BI\\PHYSIS_BI\\Proyecto Wide World Importers DINRL\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{ECC0BAB4-CEE1-5EFB-B40A-E6FBF53566B8}|BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO.dwproj|solutionrelative:BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Wide World Importers Grupo DW.cube [Design]",
-              "DocumentMoniker": "D:\\BI\\PHYSIS_BI\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.cube",
+              "DocumentMoniker": "D:\\BI\\PHYSIS_BI\\Proyecto Wide World Importers DINRL\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.cube",
               "RelativeDocumentMoniker": "BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.cube",
-              "ToolTip": "D:\\BI\\PHYSIS_BI\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.cube [Design]",
+              "ToolTip": "D:\\BI\\PHYSIS_BI\\Proyecto Wide World Importers DINRL\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.cube [Design]",
               "RelativeToolTip": "BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.cube [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-13T14:14:37.419Z",
@@ -44,10 +44,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Wide World Importers Grupo DW.dsv [Design]",
-              "DocumentMoniker": "D:\\BI\\PHYSIS_BI\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.dsv",
+              "DocumentMoniker": "D:\\BI\\PHYSIS_BI\\Proyecto Wide World Importers DINRL\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.dsv",
               "RelativeDocumentMoniker": "BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.dsv",
               "ToolTip": "D:\\BI\\PHYSIS_BI\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.dsv [Design]",
-              "RelativeToolTip": "BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.dsv [Design]",
+              "RelativeToolTip": "..\\..\\BaseWideWorldImportersGrupoCUBO\\BaseWideWorldImportersGrupoCUBO\\Wide World Importers Grupo DW.dsv [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-13T14:09:40.189Z"
             }

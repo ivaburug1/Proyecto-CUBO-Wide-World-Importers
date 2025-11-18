@@ -5,6 +5,10 @@ VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ProyectoWideWorldImportes", "ProyectoWideWorldImportes\ProyectoWideWorldImportes.dtproj", "{C1BB4F35-8070-15DB-9ED6-43B95EE63394}"
 EndProject
+Project("{42EA0DBD-9CF1-443E-919E-BE9C484E4577}") = "ST", "ST\ST.sqlproj", "{20319B73-5ED6-4122-9E61-A2A03A1DFB67}"
+EndProject
+Project("{42EA0DBD-9CF1-443E-919E-BE9C484E4577}") = "DW", "DW\DW.sqlproj", "{C40A386E-3A9E-40BD-BFFC-5C270DD94449}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
